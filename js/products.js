@@ -27,6 +27,138 @@
 
 const ALL_PRODUCTS = [
   {
+    id: "retroset01",
+    name: { en: "Lace-Trim Tie-Front Top & Wide-Leg Pants Set", zh: "蕾絲拼接綁帶上衣闊腿褲套裝" },
+    category: "set",
+    price: 119,
+    badge: { en: "New", zh: "新品" },
+    stock: "preorder",
+    colors: [
+      { en: "Black", zh: "黑" },
+      { en: "Greige", zh: "灰棕" },
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    measurements: {
+      cols: [{ en: "Suggested weight", zh: "建議體重" }],
+      rows: {
+        S: ["40–47.5kg"],
+        M: ["47.5–52.5kg"],
+        L: ["52.5–57.5kg"],
+        XL: ["57.5–62.5kg"],
+      },
+      note: {
+        en: "Supplier's weight guide. Set = top + pants.",
+        zh: "供應商建議體重對照。套裝＝上衣＋長褲。",
+      },
+    },
+    image: "https://turtlehk.github.io/al-assets/images/retroset-1.jpg",
+    images: [
+      "https://turtlehk.github.io/al-assets/images/retroset-1.jpg",
+      "https://turtlehk.github.io/al-assets/images/retroset-2.jpg",
+      "https://turtlehk.github.io/al-assets/images/retroset-3.jpg",
+      "https://turtlehk.github.io/al-assets/images/retroset-4.jpg",
+      "https://turtlehk.github.io/al-assets/images/retroset-5.jpg",
+    ],
+    description: {
+      en: "Retro, quietly elegant two-piece: a lace-trimmed tie-front top with puff cap sleeves, paired with drawstring wide-leg pants. Wear it as a set or split the pieces — the top also styles off-shoulder.",
+      zh: "復古清冷感兩件套：蕾絲拼接綁帶上衣（小泡泡袖，可正常穿或一字肩穿法）＋鬆緊抽繩闊腿長褲。成套出門自帶造型感，拆開單穿也好配。",
+    },
+  },
+  {
+    id: "hoodie01",
+    hidden: true,
+    name: { en: "Washed-Blue Embroidered Hoodie", zh: "水洗藍塗鴉刺繡連帽衛衣" },
+    category: "top",
+    price: 109,
+    badge: { en: "New", zh: "新品" },
+    stock: "preorder",
+    colors: [{ en: "Washed Blue", zh: "水洗藍" }],
+    sizes: ["S", "M", "L", "XL"],
+    measurements: {
+      cols: [{ en: "Suggested weight", zh: "建議體重" }],
+      rows: {
+        S: ["35–40kg"],
+        M: ["42.5–50kg"],
+        L: ["50–62.5kg"],
+        XL: ["62.5–70kg"],
+      },
+      note: {
+        en: "Supplier's weight guide. Oversized drop-shoulder cut — size down for a closer fit.",
+        zh: "供應商建議體重對照。Oversize 落肩版型，想貼身可拿細一碼。",
+      },
+    },
+    image: "https://turtlehk.github.io/al-assets/images/hoodie-1.jpg",
+    images: [
+      "https://turtlehk.github.io/al-assets/images/hoodie-1.jpg",
+      "https://turtlehk.github.io/al-assets/images/hoodie-2.jpg",
+      "https://turtlehk.github.io/al-assets/images/hoodie-3.jpg",
+      "https://turtlehk.github.io/al-assets/images/hoodie-4.jpg",
+    ],
+    description: {
+      en: "Washed vintage-blue hoodie with tonal graffiti-script embroidery on the chest and hood. Heavyweight 350 gsm fleece-backed cotton feel, roomy kangaroo pocket, relaxed oversized fit.",
+      zh: "水洗做舊藍連帽衛衣，胸前＋帽背同色系塗鴉刺繡。350 克梭織厚度，oversize 落肩剪裁配大袋鼠袋，秋天一件過搞掂。",
+    },
+  },
+  {
+    id: "stripecami01",
+    name: { en: "Striped Tie-Front Halter Cami", zh: "藍白條紋綁帶掛脖背心" },
+    category: "top",
+    price: 59,
+    badge: { en: "New", zh: "新品" },
+    stock: "preorder",
+    colors: [{ en: "Blue Stripe", zh: "藍白條紋" }],
+    sizes: ["S", "M", "L"],
+    measurements: {
+      cols: [{ en: "Suggested weight", zh: "建議體重" }],
+      rows: {
+        S: ["40–45kg"],
+        M: ["45–50kg"],
+        L: ["50–55kg"],
+      },
+      note: {
+        en: "Supplier's weight guide.",
+        zh: "供應商建議體重對照。",
+      },
+    },
+    image: "https://turtlehk.github.io/al-assets/images/stripecami-1.jpg",
+    images: [
+      "https://turtlehk.github.io/al-assets/images/stripecami-1.jpg",
+      "https://turtlehk.github.io/al-assets/images/stripecami-2.jpg",
+      "https://turtlehk.github.io/al-assets/images/stripecami-3.jpg",
+    ],
+    description: {
+      en: "Island-holiday striped cami with a halter neck, tie-front closure and low open back. Lace-edged hem, made for sun, sea and white maxi skirts.",
+      zh: "海島度假感藍白條紋背心：掛脖設計＋前排繫帶＋露背剪裁，下襬蕾絲花邊。配白色長裙就是整套渡假穿搭。",
+    },
+  },
+  {
+    id: "tabiflats01",
+    name: { en: "Split-Toe Ballet Flats", zh: "分趾芭蕾平底鞋" },
+    category: "shoe",
+    price: 55,
+    badge: { en: "New", zh: "新品" },
+    stock: "preorder",
+    colors: [
+      { en: "Silver", zh: "銀" },
+      { en: "White", zh: "白" },
+      { en: "Black", zh: "黑" },
+      { en: "Red", zh: "紅" },
+      { en: "Yellow", zh: "黃" },
+      { en: "Brown", zh: "棕" },
+    ],
+    sizes: ["35", "36", "37", "38", "39", "40", "41", "42"],
+    image: "https://turtlehk.github.io/al-assets/images/tabiflats-1.jpg",
+    images: [
+      "https://turtlehk.github.io/al-assets/images/tabiflats-1.jpg",
+      "https://turtlehk.github.io/al-assets/images/tabiflats-2.jpg",
+      "https://turtlehk.github.io/al-assets/images/tabiflats-3.jpg",
+    ],
+    description: {
+      en: "Soft split-toe ballet flats with a knotted vamp detail — six easy colours, featherlight and foldable-soft for all-day walking.",
+      zh: "軟皮分趾芭蕾平底鞋，鞋頭小結點綴。六色可選，鞋身柔軟輕巧，行街一日都唔攰。",
+    },
+  },
+  {
     id: "whiteset01",
     name: { en: "White Shirt & Maxi Skirt Set", zh: "白襯衫半身長裙兩件套" },
     category: "set",

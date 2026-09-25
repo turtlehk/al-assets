@@ -1018,3 +1018,12 @@ const PRODUCTS = ALL_PRODUCTS.filter((p) => !p.hidden);
 window.PRODUCTS = PRODUCTS;
 window.CATEGORIES = CATEGORIES;
 window.SIZE_LABEL = SIZE_LABEL;
+
+/* Site-wide announcement bar (edit here = live in ~10 min, no Netlify deploy).
+   Shown between `from` and `to` (HK dates, inclusive). Delete or blank to hide. */
+window.ANNOUNCE = {
+  from: "2026-09-25",
+  to: "2026-10-08",
+  zh: "📦 9/26（六）晚截國慶前最後一團；供應商 10/1–10/8 假期停發，10/9 恢復落單。期間照常收單，到貨順延。",
+  en: "📦 Last pre-holiday round closes Sat night (Sep 26). Supplier closed Oct 1–8, ordering resumes Oct 9 — orders welcome anytime, delivery resumes after the break.",
+};

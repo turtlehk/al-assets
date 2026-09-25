@@ -66,7 +66,6 @@ const ALL_PRODUCTS = [
   },
   {
     id: "hoodie01",
-    hidden: true,
     name: { en: "Washed-Blue Embroidered Hoodie", zh: "水洗藍塗鴉刺繡連帽衛衣" },
     category: "top",
     price: 109,
@@ -95,8 +94,8 @@ const ALL_PRODUCTS = [
       "https://turtlehk.github.io/al-assets/images/hoodie-4.jpg",
     ],
     description: {
-      en: "Washed vintage-blue hoodie with tonal graffiti-script embroidery on the chest and hood. Heavyweight 350 gsm fleece-backed cotton feel, roomy kangaroo pocket, relaxed oversized fit.",
-      zh: "水洗做舊藍連帽衛衣，胸前＋帽背同色系塗鴉刺繡。350 克梭織厚度，oversize 落肩剪裁配大袋鼠袋，秋天一件過搞掂。",
+      en: "Washed vintage-blue hoodie with tonal graffiti-script embroidery on the chest and hood, plus a structured double-layer hood. 350 gsm mid-weight fabric, roomy kangaroo pocket, relaxed oversized fit.",
+      zh: "水洗做舊藍連帽衛衣，胸前＋帽背同色系塗鴉刺繡，雙層帽簷更挺身。350 克中磅布料，oversize 落肩剪裁配大袋鼠袋，秋天一件過搞掂。",
     },
   },
   {

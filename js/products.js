@@ -102,7 +102,7 @@ const ALL_PRODUCTS = [
     id: "stripecami01",
     name: { en: "Striped Tie-Front Halter Cami", zh: "藍白條紋綁帶掛脖背心" },
     category: "top",
-    price: 59,
+    price: 75,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [{ en: "Blue Stripe", zh: "藍白條紋" }],

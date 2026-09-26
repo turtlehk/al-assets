@@ -68,7 +68,7 @@ const ALL_PRODUCTS = [
     id: "hoodie01",
     name: { en: "Washed-Blue Embroidered Hoodie", zh: "水洗藍塗鴉刺繡連帽衛衣" },
     category: "top",
-    price: 109,
+    price: 120,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [{ en: "Washed Blue", zh: "水洗藍" }],

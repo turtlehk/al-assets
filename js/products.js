@@ -27,6 +27,48 @@
 
 const ALL_PRODUCTS = [
   {
+    id: "stripetee01",
+    name: { en: "Striped Off-Shoulder Fitted Tee", zh: "條紋斜肩修身長袖上衣" },
+    category: "top",
+    price: 50,
+    badge: { en: "New", zh: "新品" },
+    stock: "preorder",
+    colors: [
+      { en: "Grey Stripe", zh: "灰白條紋" },
+      { en: "Red Stripe", zh: "紅白條紋" },
+      { en: "Brown Stripe", zh: "啡白條紋" },
+      { en: "Charcoal Stripe", zh: "深灰條紋" },
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    measurements: {
+      cols: [{ en: "Suggested weight", zh: "建議體重" }],
+      rows: {
+        S: ["40–46kg"],
+        M: ["46.5–52.5kg"],
+        L: ["53–57.5kg"],
+        XL: ["58–64kg"],
+      },
+      note: {
+        en: "Supplier's weight guide. Slim cropped fit.",
+        zh: "供應商建議體重對照。修身短身版型。",
+      },
+    },
+    image: "https://turtlehk.github.io/al-assets/images/stripetee-1.jpg",
+    images: [
+      "https://turtlehk.github.io/al-assets/images/stripetee-1.jpg",
+      "https://turtlehk.github.io/al-assets/images/stripetee-2.jpg",
+      "https://turtlehk.github.io/al-assets/images/stripetee-3.jpg",
+      "https://turtlehk.github.io/al-assets/images/stripetee-4.jpg",
+      "https://turtlehk.github.io/al-assets/images/stripetee-red.jpg",
+      "https://turtlehk.github.io/al-assets/images/stripetee-brown.jpg",
+      "https://turtlehk.github.io/al-assets/images/stripetee-charcoal.jpg",
+    ],
+    description: {
+      en: "A slim, cropped striped tee with an asymmetric off-shoulder neckline and contrast trim. Wear it off one shoulder or straight across — an easy everyday layer for early autumn.",
+      zh: "修身短身條紋長袖T恤，斜肩領口配撞色滾邊，可以露單肩或拉正穿。早秋單穿或做打底都好配。",
+    },
+  },
+  {
     id: "retroset01",
     name: { en: "Lace-Trim Tie-Front Top & Wide-Leg Pants Set", zh: "蕾絲拼接綁帶上衣闊腿褲套裝" },
     category: "set",

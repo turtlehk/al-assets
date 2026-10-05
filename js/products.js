@@ -215,7 +215,7 @@ const ALL_PRODUCTS = [
     id: "meshflats01",
     name: { en: "Mesh Mary Jane Ballet Flats", zh: "網面瑪莉珍芭蕾平底鞋" },
     category: "shoe",
-    price: 80,
+    price: 49,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [

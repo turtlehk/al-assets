@@ -27,6 +27,48 @@
 
 const ALL_PRODUCTS = [
   {
+    id: "sweatpants01",
+    name: { en: "Relaxed Drawstring Wide-Leg Sweatpants", zh: "美式寬鬆抽繩休閒衛褲" },
+    category: "pants",
+    price: 170,
+    badge: { en: "New", zh: "新品" },
+    stock: "preorder",
+    colors: [
+      { en: "Grey", zh: "灰" },
+      { en: "Black", zh: "黑" },
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    measurements: {
+      cols: [
+        { en: "Length", zh: "褲長" },
+        { en: "Waist", zh: "腰圍" },
+        { en: "Suggested weight", zh: "建議體重" },
+      ],
+      rows: {
+        S: [98, "56–66", "40–50kg"],
+        M: [100, "60–70", "50–55kg"],
+        L: [102, "64–74", "55.5–60kg"],
+        XL: [104, "68–78", "60–67.5kg"],
+      },
+      note: {
+        en: "Supplier's chart, measured by hand (±1–3 cm). Waist is the stretch range of the elastic waistband.",
+        zh: "供應商尺寸表，人手度量誤差 1–3cm 屬正常。腰圍為橡筋褲頭的伸縮範圍。",
+      },
+    },
+    image: "https://turtlehk.github.io/al-assets/images/sweatpants-1.jpg",
+    images: [
+      "https://turtlehk.github.io/al-assets/images/sweatpants-1.jpg",
+      "https://turtlehk.github.io/al-assets/images/sweatpants-2.jpg",
+      "https://turtlehk.github.io/al-assets/images/sweatpants-3.jpg",
+      "https://turtlehk.github.io/al-assets/images/sweatpants-4.jpg",
+      "https://turtlehk.github.io/al-assets/images/sweatpants-5.jpg",
+    ],
+    description: {
+      en: "Plain, roomy wide-leg sweatpants with an elastic drawstring waist and a slouchy stacked hem. Wear them low-slung with a crop top or pulled up with a hoodie — the lounge-to-street staple.",
+      zh: "純色寬鬆闊腿衛褲，橡筋抽繩褲頭配堆疊褲腳。低腰配短身上衣，或拉高配衛衣都得，屋企到街頭一條搞掂。",
+    },
+  },
+  {
     id: "stripetee01",
     name: { en: "Striped Off-Shoulder Fitted Tee", zh: "條紋斜肩修身長袖上衣" },
     category: "top",

@@ -68,7 +68,7 @@ const ALL_PRODUCTS = [
     id: "sockboots01",
     name: { en: "Pointed Stretch Sock Ankle Boots", zh: "尖頭彈力襪靴短靴" },
     category: "shoe",
-    price: 55,
+    price: 80,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [
@@ -215,7 +215,7 @@ const ALL_PRODUCTS = [
     id: "meshflats01",
     name: { en: "Mesh Mary Jane Ballet Flats", zh: "網面瑪莉珍芭蕾平底鞋" },
     category: "shoe",
-    price: 49,
+    price: 80,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [

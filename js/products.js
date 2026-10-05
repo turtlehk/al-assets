@@ -27,6 +27,44 @@
 
 const ALL_PRODUCTS = [
   {
+    id: "tote01",
+    name: { en: "Slouchy Soft Leather-Look Tote", zh: "復古軟皮大容量托特包" },
+    category: "bag",
+    price: 49,
+    badge: { en: "New", zh: "新品" },
+    stock: "preorder",
+    colors: [
+      { en: "Brown", zh: "啡色" },
+      { en: "Black", zh: "黑色" },
+    ],
+    sizes: ["F"],
+    measurements: {
+      cols: [
+        { en: "Width", zh: "長" },
+        { en: "Height", zh: "高" },
+        { en: "Depth", zh: "闊" },
+      ],
+      rows: { F: [30, 27, 11] },
+      note: {
+        en: "Supplier's measurements (cm, ±2–3 cm). Magnetic snap closure.",
+        zh: "供應商尺寸（cm，誤差 2–3cm）。磁扣開合。",
+      },
+    },
+    image: "https://turtlehk.github.io/al-assets/images/tote-1.jpg",
+    images: [
+      "https://turtlehk.github.io/al-assets/images/tote-1.jpg",
+      "https://turtlehk.github.io/al-assets/images/tote-2.jpg",
+      "https://turtlehk.github.io/al-assets/images/tote-3.jpg",
+      "https://turtlehk.github.io/al-assets/images/tote-black.jpg",
+      "https://turtlehk.github.io/al-assets/images/tote-4.jpg",
+      "https://turtlehk.github.io/al-assets/images/tote-5.jpg",
+    ],
+    description: {
+      en: "A clean, slouchy tote in soft pebbled leather-look material with long shoulder straps and a magnetic snap. Fits your everyday essentials — the minimalist bag that goes with everything.",
+      zh: "簡約軟身托特包，荔枝紋皮面效果，長肩帶可單肩或腋下揹，磁扣開合。日常隨身物一個過裝得落，百搭極簡款。",
+    },
+  },
+  {
     id: "sockboots01",
     name: { en: "Pointed Stretch Sock Ankle Boots", zh: "尖頭彈力襪靴短靴" },
     category: "shoe",

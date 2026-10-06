@@ -30,7 +30,7 @@ const ALL_PRODUCTS = [
     id: "tote01",
     name: { en: "Slouchy Soft Leather-Look Tote", zh: "復古軟皮大容量托特包" },
     category: "bag",
-    price: 49,
+    price: 80,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [

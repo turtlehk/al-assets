@@ -252,7 +252,7 @@ const ALL_PRODUCTS = [
     id: "cowlknit01",
     name: { en: "Off-Shoulder Cowl Rib-Knit Top", zh: "一字肩堆領坑條針織上衣" },
     category: "top",
-    price: 80,
+    price: 70,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [

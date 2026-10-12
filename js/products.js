@@ -882,7 +882,7 @@ const ALL_PRODUCTS = [
     id: "meshflats01",
     name: { en: "Mesh Mary Jane Ballet Flats", zh: "網面瑪莉珍芭蕾平底鞋" },
     category: "shoe",
-    price: 49,
+    price: 60,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [
@@ -922,7 +922,7 @@ const ALL_PRODUCTS = [
     id: "sweatpants01",
     name: { en: "Relaxed Drawstring Wide-Leg Sweatpants", zh: "美式寬鬆抽繩休閒衛褲" },
     category: "pants",
-    price: 170,
+    price: 120,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [

@@ -27,6 +27,47 @@
 
 const ALL_PRODUCTS = [
   {
+    id: "widesweat01",
+    name: { en: "Drapey Wide-Leg Drawstring Sweatpants", zh: "垂墜闊腿抽繩衛褲" },
+    category: "pants",
+    price: 100,
+    badge: { en: "New", zh: "新品" },
+    stock: "preorder",
+    colors: [
+      { en: "Cream", zh: "米白" },
+      { en: "Pink", zh: "粉色" },
+      { en: "Heather Grey", zh: "花灰" },
+      { en: "Blue", zh: "藍色" },
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    measurements: {
+      cols: [{ en: "Suggested weight", zh: "建議體重" }],
+      rows: {
+        S: ["40–50kg"],
+        M: ["47.5–57.5kg"],
+        L: ["55–65kg"],
+        XL: ["62.5–72.5kg"],
+      },
+      note: {
+        en: "Supplier's weight guide. Lightweight fabric, floor-grazing length.",
+        zh: "供應商建議體重對照。薄款布料，拖地長度。",
+      },
+    },
+    image: "https://turtlehk.github.io/al-assets/images/widesweat-1.jpg",
+    images: [
+      "https://turtlehk.github.io/al-assets/images/widesweat-1.jpg",
+      "https://turtlehk.github.io/al-assets/images/widesweat-2.jpg",
+      "https://turtlehk.github.io/al-assets/images/widesweat-3.jpg",
+      "https://turtlehk.github.io/al-assets/images/widesweat-4.jpg",
+      "https://turtlehk.github.io/al-assets/images/widesweat-5.jpg",
+      "https://turtlehk.github.io/al-assets/images/widesweat-6.jpg",
+    ],
+    description: {
+      en: "Lightweight, drapey wide-leg sweatpants with an elastic drawstring waist and a long, floor-grazing hem. Relaxed and leg-lengthening — four soft colours for easy everyday wear.",
+      zh: "薄款垂墜闊腿衛褲，橡筋抽繩褲頭配拖地長度，鬆身又顯腳長。四隻柔和顏色，日常點配都好睇。",
+    },
+  },
+  {
     id: "tote01",
     name: { en: "Slouchy Soft Leather-Look Tote", zh: "復古軟皮大容量托特包" },
     category: "bag",

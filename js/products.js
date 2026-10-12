@@ -1905,6 +1905,21 @@ window.PRODUCTS = PRODUCTS;
 window.CATEGORIES = CATEGORIES;
 window.SIZE_LABEL = SIZE_LABEL;
 
+/* Homepage hero slideshow (edit here = live in ~10 min, no Netlify deploy).
+   src = image URL, pos = CSS object-position (keep faces in frame). Empty list
+   falls back to the newest dress/set/top photos. hero-real-* are our own
+   try-on shots (store signage cropped out). */
+window.HERO_IMAGES = [
+  { src: "https://turtlehk.github.io/al-assets/images/hero-real-1.jpg", pos: "center 8%" },
+  { src: "https://turtlehk.github.io/al-assets/images/cowlknit-1.jpg", pos: "center 18%" },
+  { src: "https://turtlehk.github.io/al-assets/images/hero-real-2.jpg", pos: "center 15%" },
+  { src: "https://turtlehk.github.io/al-assets/images/whiteset-1.jpg", pos: "center 18%" },
+  { src: "https://turtlehk.github.io/al-assets/images/hero-real-3.jpg", pos: "center 8%" },
+  { src: "https://turtlehk.github.io/al-assets/images/asymtop-1.jpg", pos: "center 20%" },
+  { src: "https://turtlehk.github.io/al-assets/images/hero-real-4.jpg", pos: "center 8%" },
+  { src: "https://turtlehk.github.io/al-assets/images/hero-real-5.jpg", pos: "center 10%" },
+];
+
 /* Site-wide announcement bar (edit here = live in ~10 min, no Netlify deploy).
    Shown between `from` and `to` (HK dates, inclusive). Delete or blank to hide. */
 window.ANNOUNCE = {

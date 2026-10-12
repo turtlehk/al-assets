@@ -1110,7 +1110,7 @@ const ALL_PRODUCTS = [
     id: "tabiflats01",
     name: { en: "Split-Toe Ballet Flats", zh: "分趾芭蕾平底鞋" },
     category: "shoe",
-    price: 55,
+    price: 75,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [

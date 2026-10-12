@@ -27,6 +27,54 @@
 
 const ALL_PRODUCTS = [
   {
+    id: "zipknit01",
+    name: { en: "Ribbed Funnel-Neck Zip-Up Knit Cardigan", zh: "高領雙頭拉鏈坑條針織開衫" },
+    category: "top",
+    price: 100,
+    badge: { en: "New", zh: "新品" },
+    stock: "preorder",
+    colors: [
+      { en: "Cream", zh: "米白" },
+      { en: "Grey", zh: "灰色" },
+      { en: "Black", zh: "黑色" },
+      { en: "Pink", zh: "粉紅" },
+      { en: "Camel (olive tone)", zh: "駝色（偏橄欖）" },
+    ],
+    sizes: ["S", "M", "L", "XL", "2XL"],
+    measurements: {
+      cols: [
+        { en: "Length", zh: "衣長" },
+        { en: "Bust", zh: "胸圍" },
+        { en: "Suggested weight", zh: "建議體重" },
+      ],
+      rows: {
+        S: [55, 104, "40–45kg"],
+        M: [56, 106, "45–50kg"],
+        L: [57, 108, "50–55kg"],
+        XL: [58, 110, "55–60kg"],
+        "2XL": [59, 112, "60–65kg"],
+      },
+      note: {
+        en: "Supplier's flat measurements (cm, ±3–5 cm). Relaxed fit, soft and very stretchy, medium thickness.",
+        zh: "供應商平鋪尺寸（cm，誤差 3–5cm）。寬鬆版型，柔軟高彈，厚度適中。",
+      },
+    },
+    care: { en: "Hand wash below 30°C, dry flat, do not tumble dry.", zh: "30°C 以下手洗，平鋪晾乾，勿烘乾。" },
+    image: "https://turtlehk.github.io/al-assets/images/zipknit-1.jpg",
+    images: [
+      "https://turtlehk.github.io/al-assets/images/zipknit-1.jpg",
+      "https://turtlehk.github.io/al-assets/images/zipknit-3.jpg",
+      "https://turtlehk.github.io/al-assets/images/zipknit-grey.jpg",
+      "https://turtlehk.github.io/al-assets/images/zipknit-black.jpg",
+      "https://turtlehk.github.io/al-assets/images/zipknit-pink.jpg",
+      "https://turtlehk.github.io/al-assets/images/zipknit-camel.jpg",
+    ],
+    description: {
+      en: "Chunky rib-knit cardigan with a fold-over funnel collar and a two-way zip that lets you open it from the top or the hem. Relaxed, slightly cropped fit with a split zip hem.",
+      zh: "粗坑條針織開衫，反摺高領配雙頭拉鏈，上下都拉得開，下襬開叉更有層次。寬鬆略短身，秋冬一件搞掂。",
+    },
+  },
+  {
     id: "batwingknit01",
     name: { en: "Batwing Off-Shoulder Knit Top", zh: "蝙蝠袖一字肩針織上衣" },
     category: "top",

@@ -30,7 +30,7 @@ const ALL_PRODUCTS = [
     id: "widesweat01",
     name: { en: "Drapey Wide-Leg Drawstring Sweatpants", zh: "垂墜闊腿抽繩衛褲" },
     category: "pants",
-    price: 100,
+    price: 115,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [

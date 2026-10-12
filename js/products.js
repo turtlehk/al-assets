@@ -1208,7 +1208,7 @@ const ALL_PRODUCTS = [
     id: "flarepants01",
     name: { en: "Low-Rise Flare Yoga Pants", zh: "美式復古低腰微喇瑜伽褲" },
     category: "pants",
-    price: 69,
+    price: 100,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [

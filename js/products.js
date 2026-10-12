@@ -504,7 +504,7 @@ const ALL_PRODUCTS = [
     id: "squaretee01",
     name: { en: "Square-Neck Shrug-Layer Fitted Top", zh: "方領假兩件披肩修身長袖上衣" },
     category: "top",
-    price: 65,
+    price: 70,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [

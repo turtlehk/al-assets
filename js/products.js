@@ -288,7 +288,7 @@ const ALL_PRODUCTS = [
     id: "pointelleknit01",
     name: { en: "Off-Shoulder Open-Knit Belted Sweater", zh: "鏤空一字肩收腰長身毛衣（送腰帶）" },
     category: "top",
-    price: 85,
+    price: 70,
     badge: { en: "New", zh: "新品" },
     stock: "preorder",
     colors: [{ en: "Apricot (with belt)", zh: "杏色（送腰帶）" }],

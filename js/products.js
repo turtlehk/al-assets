@@ -27,6 +27,54 @@
 
 const ALL_PRODUCTS = [
   {
+    id: "bikerjacket01",
+    name: { en: "Cropped Faux-Leather Biker Jacket", zh: "短款機車皮衣外套" },
+    category: "top",
+    price: 180,
+    badge: { en: "New", zh: "新品" },
+    stock: "preorder",
+    colors: [
+      { en: "Black", zh: "黑色" },
+      { en: "White (ivory tone)", zh: "白色（偏米白）" },
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    measurements: {
+      cols: [
+        { en: "Shoulder", zh: "肩寬" },
+        { en: "Bust", zh: "胸圍" },
+        { en: "Length", zh: "衣長" },
+        { en: "Sleeve", zh: "袖長" },
+      ],
+      rows: {
+        S: [39, 86, 46, 58],
+        M: [40, 90, 47, 59],
+        L: [41, 94, 48, 60],
+        XL: [42, 98, 49, 61],
+      },
+      note: {
+        en: "Supplier's measurements (cm, ±2–3 cm). Fitted, cropped cut — size up if you'll layer a knit underneath.",
+        zh: "供應商尺寸（cm，誤差 2–3cm）。合身短版，內搭毛衣建議大一碼。",
+      },
+    },
+    fabric: { en: "PU faux leather (washed, soft-touch)", zh: "PU 仿皮（水洗軟皮）" },
+    care: {
+      en: "Wipe clean with a damp cloth. Do not machine wash, bleach or tumble dry; keep away from heat and direct sun; store on a hanger.",
+      zh: "以濕布輕抹清潔；勿機洗、勿漂白、勿烘乾；避免高溫及暴曬；用衣架吊掛收納。",
+    },
+    image: "https://turtlehk.github.io/al-assets/images/biker-black.jpg",
+    images: [
+      "https://turtlehk.github.io/al-assets/images/biker-black.jpg",
+      "https://turtlehk.github.io/al-assets/images/biker-white.jpg",
+      "https://turtlehk.github.io/al-assets/images/biker-white-2.jpg",
+      "https://turtlehk.github.io/al-assets/images/biker-black-back.jpg",
+      "https://turtlehk.github.io/al-assets/images/biker-white-back.jpg",
+    ],
+    description: {
+      en: "The classic cropped biker in soft washed faux leather: wide lapels with silver snap studs, an asymmetric front zip, zip pockets and zip cuffs. Fitted and cropped to sit right at a high waistline.",
+      zh: "經典短版機車皮衣，水洗 PU 軟皮手感，大翻領配銀色按扣、斜拉鏈、拉鏈口袋與拉鏈袖口。合身短身剛好落在高腰位，配高腰褲最顯腿長。",
+    },
+  },
+  {
     id: "zipknit01",
     name: { en: "Ribbed Funnel-Neck Zip-Up Knit Cardigan", zh: "高領雙頭拉鏈坑條針織開衫" },
     category: "top",

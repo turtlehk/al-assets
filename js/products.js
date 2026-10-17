@@ -2180,14 +2180,18 @@ window.SIZE_LABEL = SIZE_LABEL;
    falls back to the newest dress/set/top photos. hero-real-* are our own
    try-on shots (store signage cropped out). */
 window.HERO_IMAGES = [
+  /* 2026 autumn / winter rotation (10-17): knits + biker jacket, alternating with our try-on shots */
+  { src: "https://turtlehk.github.io/al-assets/images/biker-white.jpg", pos: "center 30%" },
   { src: "https://turtlehk.github.io/al-assets/images/hero-real-1.jpg", pos: "center 8%" },
-  { src: "https://turtlehk.github.io/al-assets/images/cowlknit-1.jpg", pos: "center 18%" },
+  { src: "https://turtlehk.github.io/al-assets/images/zipknit-1.jpg", pos: "center 50%" },
   { src: "https://turtlehk.github.io/al-assets/images/hero-real-2.jpg", pos: "center 15%" },
-  { src: "https://turtlehk.github.io/al-assets/images/whiteset-1.jpg", pos: "center 18%" },
+  { src: "https://turtlehk.github.io/al-assets/images/cowlknit-1.jpg", pos: "center 18%" },
   { src: "https://turtlehk.github.io/al-assets/images/hero-real-3.jpg", pos: "center 8%" },
-  { src: "https://turtlehk.github.io/al-assets/images/asymtop-1.jpg", pos: "center 20%" },
+  { src: "https://turtlehk.github.io/al-assets/images/pointelleknit-1.jpg", pos: "center 35%" },
   { src: "https://turtlehk.github.io/al-assets/images/hero-real-4.jpg", pos: "center 8%" },
+  { src: "https://turtlehk.github.io/al-assets/images/biker-black.jpg", pos: "center 10%" },
   { src: "https://turtlehk.github.io/al-assets/images/hero-real-5.jpg", pos: "center 10%" },
+  { src: "https://turtlehk.github.io/al-assets/images/batwingknit-black.jpg", pos: "center 30%" },
 ];
 
 /* Site-wide announcement bar (edit here = live in ~10 min, no Netlify deploy).

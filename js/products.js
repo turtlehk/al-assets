@@ -2198,3 +2198,19 @@ window.ANNOUNCE = {
   zh: "📦 9/26（六）晚截國慶前最後一團；供應商 10/1–10/8 假期停發，10/9 恢復落單。期間照常收單，到貨順延。",
   en: "📦 Last pre-holiday round closes Sat night (Sep 26). Supplier closed Oct 1–8, ordering resumes Oct 9 — orders welcome anytime, delivery resumes after the break.",
 };
+
+/* Seasonal site copy (edit here = live in ~10 min, no Netlify deploy).
+   Any i18n key placed here overrides the built-in text, e.g. the homepage
+   hero: hero_eyebrow / hero_title (HTML, <br> allowed) / hero_desc / hero_cta. */
+window.SITE_TEXT = {
+  zh: {
+    hero_eyebrow: "2026 秋冬新品",
+    hero_title: "溫暖，<br>也可以很優雅",
+    hero_desc: "柔軟針織、層次疊穿與短版皮衣，嚴選秋冬單品，讓每一天的妳，暖得從容、美得自在。",
+  },
+  en: {
+    hero_eyebrow: "2026 Autumn / Winter New In",
+    hero_title: "Stay warm,<br>stay elegant",
+    hero_desc: "Soft knits, cosy layers and cropped leather — curated for the cooler days, so the everyday you stays warm and effortlessly chic.",
+  },
+};
